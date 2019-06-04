@@ -40,6 +40,18 @@
 *::after {
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
+.element {
+    width: 200px;
+    height: 20px;
+
+}
+.elementicons {
+  width: 140px;
+  height: 130px;
+  padding-right: 3px;
+  margin-bottom: 1rem !important;
+}
+
 
 html {
   font-family: sans-serif;
@@ -9598,7 +9610,7 @@ textarea.form-control {
   background: -ms-linear-gradient(-45deg, #4e75f5 0%, rgb(6,54,120) 100%);
   background: -webkit-linear-gradient(315deg, #4e75f5 0%, rgb(6,54,120) 100%);
   background: -o-linear-gradient(315deg, #4e75f5 0%, rgb(6,54,120) 100%);
-  background: linear-gradient(135deg, #4e75f5 0%, rgb(6,54,120) 100%);
+  background: linear-gradient(135deg, rgb(6,54,120) 0%, rgb(6,54,120) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4e75f5', endColorstr='rgb(6,54,120)', GradientType=1 );
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
