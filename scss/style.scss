@@ -1,7 +1,7 @@
 @import 'bootstrap/bootstrap';
 @import 'bootstrap/variables';
 
-$font-primary: 'Nunito Sans',Arial, sans-serif;
+$font-primary: 'Roboto', sans-serif;
 
 $white: #fff;
 $black: #000000;
@@ -73,6 +73,10 @@ h1, h2, h3, h4, h5,
 
 .text-primary {
 	color: $primary!important;
+}
+
+p{
+	text-align: justify;
 }
 
 
